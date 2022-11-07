@@ -1,0 +1,81 @@
+<DOCTYPE! html>
+<html>
+<link rel="stylesheet" href="amortTable.css">
+
+<Head>
+<div class="mid">    
+<h1>Project 2</h1>
+<h2> <u>15/30 Year Amortization Table</u></h2>
+</div>
+</Head>
+
+<body>
+<div class="topcontainer">
+ <div class="container1">   
+   <div>   <b> Loan amount </b> 
+    <input type="text" id="loanamount" class="loaninfo" placeholder="Please enter an amount...">   
+   </div>
+   <div> 
+     <form>
+     <label><b> Select a Loan Term </b></label>
+     <select class="loaninfo" id="loanlen">
+     <option value="1" name="15yr"> 15 Years </option>
+     <option value="2" name="30yr"> 30 Years </option>
+    </select>
+    </form>
+   </div>
+   <div> <b> Interst Rate (APR) </b>
+    <input type="text" id="interestrate" class="loaninfo" placeholder="Enter your interest rate...">
+   </div>  
+   <div>
+   </div>
+   <div id="sumdiv">
+   <button class="smt" onclick="test()"> <b>Submit</b> </button>
+   <button class="smt" id="strover" onclick="refresh()">   <b>Start Over</b> </button>
+  </div>
+ </div> 
+ <div class="container2">
+  <div> <h2 style="text-align: center;"> Summary </h2>        </div>
+  <div class="eqbox" id="copyloanamt"> Loan Amount:</div>
+ <div class="eqbox" id="copyloanterm">  Loan Term: </div>
+ <div class="eqbox" id="copyinterestrate">  Interest Rate (per period):</div>
+ <div class="eqbox" id="monthlypmt">Monthly Payment: </div>
+ <div class="eqbox margbottom" id="totalinterestpaid"> Total Interest Paid on Loan: </div>
+
+ </div>
+</div>
+
+
+ <div class="container3">
+  <div>
+    <table id="tab1">  
+      <tr>
+        <th class="col1"> Months </th>
+        <th class="col2"> Begining Balance </th> 
+        <th class="col3">Interest  </th>
+        <th class="col4">  Principal        </th>
+        <th class="col5">    Ending Balance     </th>
+      </tr>
+ 
+    </table>
+  </div>
+
+ </div>
+
+
+ <div class="container3" id="loandiv"> </div>
+
+ <script src="Amorttable.js"></script>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+</html>
