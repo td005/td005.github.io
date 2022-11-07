@@ -1,0 +1,160 @@
+.navbar{
+    position: fixed;
+    top: 0;
+    background-color: rgb(31, 31, 31);
+    color: rgb(220, 218, 218);
+    padding-left: 3%;
+    width: 100%;
+    font-size: 25px;
+    margin-left: -15%;
+}
+.navbar a{
+    margin-left: 20px;
+}
+body{
+    margin-left: 15%;
+    margin-right: 15%;
+    background-image: linear-gradient(rgb(36, 68, 36), whitesmoke);
+}
+.header1 {  
+   text-align: center;
+   background-color: whitesmoke;
+   padding-top: 0.5%;
+   margin-right: 10%;
+   margin-left: 10%;
+   font-size: 150%;
+   border-radius: 10px;
+   margin-top: 5%;
+}
+.bar1{
+    background-color: lightslategray;  
+    border-bottom: 5px, dashed, black;
+}
+    
+.cont1{
+    
+    display: flex;
+   
+
+}
+.left1{
+   float: left;
+    width: 25%;
+    text-align: center;
+    border-right: 4px solid rgb(45, 65, 49);
+    background-color: rgb(173, 186, 194);
+    color: black;
+    border-radius: 10px;
+    
+    
+}
+.mid{
+
+  width: 50%;
+  background-color: whitesmoke;
+  border-right: 4px solid rgb(45, 65, 49);
+  text-align: center;
+  border-radius: 10px;
+  
+}
+.right1{
+    float: right;
+    width: 25%;
+    text-align: center;
+    background-color: rgb(173, 186, 194);
+    color: black;
+    border-radius: 10px;
+
+}
+.box1{
+    box-shadow: 6px 6px 15px black;
+}
+a{
+    color: navy;
+    text-decoration: none;
+}
+a:hover{
+    color: brown;
+
+}
+
+.navbar a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.navbar a:hover{
+    color: deepskyblue;
+    text-decoration: none;
+}
+
+
+h2{
+    text-decoration: underline;
+}
+h3{
+    text-decoration: underline;
+}
+.wb{
+    color: navy;
+    font-style: oblique;
+    font-weight: bold;
+    
+    padding: 2px;
+    
+}
+b{
+    text-decoration: underline;
+}
+#shadowname{
+    text-shadow: 4px 4px 9px rgb(85, 80, 79);
+    padding-bottom: 5%;
+    color: black;
+}
+#shadowheader{
+    box-shadow: 10px 10px 10px black ;
+}
+#we{
+    margin-left: 17.5%;
+    margin-top: 1%;
+    width: 65%;
+}
+ul{ 
+    text-align: left;
+}
+.alignleft{
+    text-align: left;
+    margin-left: 5%;
+   
+}
+.np1{
+    margin-top: -2%;
+}
+.bu{
+    border-bottom: 3px;
+}
+.center{
+    color: aliceblue;
+    margin-top: 3%;
+    text-align: center;
+}
+.projects{
+    display: flex;
+    margin-top: 5%;
+    justify-content: center;
+    
+}
+
+#calcpic{
+    height: 450px;
+    width: 400px;
+    border: 5px, solid, darkblue;
+    border-radius: 5px;
+}
+#ammortpic{
+    height: 450px;
+    width:  500px;
+    border: 5px, solid, darkblue;
+    border-radius: 5px;
+    margin-left: 5%;
+}
+ 
