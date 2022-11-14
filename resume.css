@@ -139,22 +139,39 @@ ul{
 }
 .projects{
     display: flex;
+    flex-direction: column;
     margin-top: 5%;
+    align-content: center;
     justify-content: center;
+    align-items: center;
+    justify-items: center;
+    
     
 }
 
 #calcpic{
-    height: 450px;
-    width: 400px;
+    
     border: 5px, solid, darkblue;
     border-radius: 5px;
+    
 }
 #ammortpic{
-    height: 450px;
-    width:  500px;
+    
     border: 5px, solid, darkblue;
     border-radius: 5px;
-    margin-left: 5%;
+    margin-top: 5%;
+    
 }
- 
+#gamepic{
+    
+    border: 5px, solid, darkblue;
+    border-radius: 5px;
+    margin-top: 5%;
+    
+
+}
+.linked{
+    margin-left: 50%;
+}
+
+
