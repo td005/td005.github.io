@@ -1,8 +1,8 @@
 .navbar{
     position: fixed;
     top: 0;
-    background-color: rgb(31, 31, 31);
-    color: rgb(220, 218, 218);
+    background-color: rgb(150, 146, 146);
+    color: rgb(255, 255, 255);
     padding-left: 3%;
     width: 100%;
     font-size: 25px;
