@@ -1,15 +1,15 @@
 .navbar{
     position: fixed;
     top: 0;
-    background-color: rgb(150, 146, 146);
+    background-color: rgb(204, 204, 204);
     color: rgb(255, 255, 255);
     padding-left: 3%;
     width: 100%;
-    font-size: 25px;
+    font-size: 20px;
     margin-left: -15%;
 }
 .navbar a{
-    margin-left: 20px;
+    margin-left: 30px;
 }
 body{
     margin-left: 15%;
@@ -79,11 +79,11 @@ a:hover{
 }
 
 .navbar a{
-    color: aliceblue;
+    color: rgb(0, 36, 67);
     text-decoration: none;
 }
 .navbar a:hover{
-    color: deepskyblue;
+    color: rgb(81, 130, 148);
     text-decoration: none;
 }
 
@@ -138,40 +138,54 @@ ul{
     text-align: center;
 }
 .projects{
+    
     display: flex;
     flex-direction: column;
     margin-top: 5%;
-    align-content: center;
-    justify-content: center;
+    align-self: center;
+    justify-self: center;
     align-items: center;
     justify-items: center;
+
     
     
 }
 
 #calcpic{
-    
     border: 5px, solid, darkblue;
     border-radius: 5px;
+    height: 400px;
+    width: 400px;
+    
     
 }
 #ammortpic{
     
     border: 5px, solid, darkblue;
     border-radius: 5px;
-    margin-top: 5%;
+    height: 400px;
+    width: 400px;
+    
     
 }
 #gamepic{
     
     border: 5px, solid, darkblue;
-    border-radius: 5px;
     margin-top: 5%;
+    height: 300px;
+    width: 450px;
     
-
+}
+.picdiv{
+        display: flex;
+        gap: 5%;
 }
 .linked{
     margin-left: 50%;
 }
-
-
+.darkfont{
+    color:darkblue;
+}
+.startflex{
+    display: flex;
+}
