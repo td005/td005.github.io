@@ -1,11 +1,11 @@
 .navbar{
     position: fixed;
     top: 0;
-    background-color: rgb(204, 204, 204);
-    color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    color: rgb(227, 221, 221);
     padding-left: 3%;
     width: 100%;
-    font-size: 20px;
+    font-size: 25px;
     margin-left: -15%;
 }
 .navbar a{
@@ -29,13 +29,9 @@ body{
 .bar1{
     background-color: lightslategray;  
     border-bottom: 5px, dashed, black;
-}
-    
-.cont1{
-    
+}   
+.cont1{   
     display: flex;
-   
-
 }
 .left1{
    float: left;
@@ -44,18 +40,14 @@ body{
     border-right: 4px solid rgb(45, 65, 49);
     background-color: rgb(173, 186, 194);
     color: black;
-    border-radius: 10px;
-    
-    
+    border-radius: 10px;   
 }
 .mid{
-
   width: 50%;
   background-color: whitesmoke;
   border-right: 4px solid rgb(45, 65, 49);
   text-align: center;
-  border-radius: 10px;
-  
+  border-radius: 10px;  
 }
 .right1{
     float: right;
@@ -64,7 +56,6 @@ body{
     background-color: rgb(173, 186, 194);
     color: black;
     border-radius: 10px;
-
 }
 .box1{
     box-shadow: 6px 6px 15px black;
@@ -75,19 +66,15 @@ a{
 }
 a:hover{
     color: brown;
-
 }
-
 .navbar a{
-    color: rgb(0, 36, 67);
+    color: rgb(36, 56, 73);
     text-decoration: none;
 }
 .navbar a:hover{
-    color: rgb(81, 130, 148);
+    color: rgb(255, 165, 132);
     text-decoration: none;
 }
-
-
 h2{
     text-decoration: underline;
 }
@@ -97,21 +84,24 @@ h3{
 .wb{
     color: navy;
     font-style: oblique;
-    font-weight: bold;
-    
-    padding: 2px;
-    
+    font-weight: bold;   
+    padding: 2px; 
 }
 b{
     text-decoration: underline;
 }
 #shadowname{
     text-shadow: 4px 4px 9px rgb(85, 80, 79);
-    padding-bottom: 5%;
+
     color: black;
+    margin-left: 5%;
 }
 #shadowheader{
+    display: flex;
+    align-content: center;
+    justify-content: center;
     box-shadow: 10px 10px 10px black ;
+    margin-bottom: 2%;
 }
 #we{
     margin-left: 17.5%;
@@ -123,8 +113,7 @@ ul{
 }
 .alignleft{
     text-align: left;
-    margin-left: 5%;
-   
+    margin-left: 5%;  
 }
 .np1{
     margin-top: -2%;
@@ -137,44 +126,43 @@ ul{
     margin-top: 3%;
     text-align: center;
 }
-.projects{
-    
+.projects{   
     display: flex;
     flex-direction: column;
     margin-top: 5%;
     align-self: center;
     justify-self: center;
     align-items: center;
-    justify-items: center;
-
-    
-    
+    justify-items: center;    
 }
-
 #calcpic{
     border: 5px, solid, darkblue;
     border-radius: 5px;
     height: 400px;
-    width: 400px;
-    
-    
+    width: 400px;  
 }
-#ammortpic{
-    
+#ammortpic{   
     border: 5px, solid, darkblue;
     border-radius: 5px;
     height: 400px;
-    width: 400px;
-    
-    
+    width: 400px;   
 }
-#gamepic{
-    
+#gamepic{ 
     border: 5px, solid, darkblue;
     margin-top: 5%;
     height: 300px;
-    width: 450px;
-    
+    width: 450px; 
+}
+#SP500{
+    height: 300px;
+    width: 450px; 
+}
+.mypic{
+    border-radius: 50%;
+    border: 5px solid rgb(0, 0, 0);
+    width: 90%;
+    height: 90%;
+    margin-left: -10%;
 }
 .picdiv{
         display: flex;
