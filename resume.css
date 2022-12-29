@@ -6,24 +6,23 @@
     padding-left: 3%;
     width: 100%;
     font-size: 25px;
-    margin-left: -15%;
+    margin-left: -3%;
 }
 .navbar a{
     margin-left: 30px;
 }
 body{
-    margin-left: 15%;
-    margin-right: 15%;
-    background-image: linear-gradient(rgb(36, 68, 36), whitesmoke);
-}
+    background-image: url('abstract-1780182_640.jpg');
+    background-size: cover;
+};
 .header1 {  
    text-align: center;
    background-color: whitesmoke;
    padding-top: 0.5%;
-   margin-right: 10%;
-   margin-left: 10%;
+   margin-right: 18%;
+   margin-left: 18%;
    font-size: 150%;
-   border-radius: 10px;
+   border-radius: 15px;
    margin-top: 5%;
 }
 .bar1{
@@ -58,7 +57,7 @@ body{
     border-radius: 10px;
 }
 .box1{
-    box-shadow: 6px 6px 15px black;
+    box-shadow: 6px 6px 15px rgb(80, 80, 80);
 }
 a{
     color: navy;
@@ -102,6 +101,10 @@ b{
     justify-content: center;
     box-shadow: 10px 10px 10px black ;
     margin-bottom: 2%;
+    margin-top: 5%;
+    background-color: ghostwhite;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 #we{
     margin-left: 17.5%;
@@ -163,6 +166,7 @@ ul{
     width: 90%;
     height: 90%;
     margin-left: -10%;
+    margin-top: 2%;
 }
 .picdiv{
         display: flex;
@@ -177,3 +181,4 @@ ul{
 .startflex{
     display: flex;
 }
+
