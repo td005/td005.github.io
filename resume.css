@@ -138,13 +138,8 @@ ul{
     align-items: center;
     justify-items: center;    
 }
-#calcpic{
-    border: 5px, solid, darkblue;
-    border-radius: 5px;
-    height: 400px;
-    width: 400px;  
-}
-#ammortpic{   
+
+.WPpic{   
     border: 5px, solid, darkblue;
     border-radius: 5px;
     height: 400px;
@@ -181,4 +176,3 @@ ul{
 .startflex{
     display: flex;
 }
-
