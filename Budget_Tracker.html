@@ -1,0 +1,51 @@
+<html>
+
+<link rel="stylesheet" href="Budget.css">
+<head>
+
+</head>
+
+<body style="margin-top: 5%;" background="BudgetBackground.jpeg">
+    <h1> <u>Personal Budget </u></h1>
+    <p id="desc"> Easy tool to find your monthly totals for income and expenses. </p>
+<div class="maincontainer">
+
+<div class="container2" style="margin-left: 3%;">
+    <div class="newfont newinc"><h2> Monthly Income : </h2><label> New Income amount: </label> <input id="incomeAmt" type='text' placeholder='Enter an amount...' > 
+        <label> Income Source: </label> <input id="incometype" type='text' placeholder='Enter income source...'>
+        <button class="pickAmount" onclick="createNewIncome()"> Add New Income Source </button>
+    (click to add your income to budget) </div>
+    <div class="newfont newinc"><h2>Monthly Expenses : </h2><label> New Expense amount: </label> <input id="expenseAmt" type='text' placeholder='Enter an amount...' > 
+        <label> Expense Type: </label> <input id="expensetype" type='text' placeholder='Enter expense type...'>
+        <button class="pickAmount" onclick="createNewExpense()"> Add New Expense </button> 
+        (click to add your expense to budget) </div> 
+</div>
+<div class="tablecont">
+    <h3 class="adjustmargin"> Overview: </h3>
+    <table id="tablehead"> 
+        <tr>
+            <td> Inc / Exp :</td>
+            <td> Source :</td>
+            <td> Frequency :</td>
+            <td> Amount :</td>
+        </tr>
+    </table>
+        <table id="table1"> </table>
+        <div class="newfont" style="text-align: center;">
+            <button id="SumBtn" onclick="chartview()">Submit </button>
+            <button onclick="cleartable()">Clear Entries</button><p style="color: powderblue; background-color: black;">(Clear after submitting to avoid duplicates)</p>
+        </div>      
+</div>
+<div class="container2" style="margin-top: 5%; margin-left: 10%;"> <h3 class="adjustmargin"> Expense Table: </h3>
+       <div><table id="ExpenseHead"><tr><td>Type:</td><td>Source:</td><td>Amount:</td><td>Total:</td></tr></table></div>   
+       <div id="summaryExpense">  </div>  
+
+        <h3 style="color: white; text-align: center; "> Income Table:   </h3>
+       <div><table id="incomehead"><tr><td>Type:</td><td>Source:</td><td>Amount:</td><td>Total:</td></tr></table></div>
+       <div> <div id="summaryIncome"></div>  </div>
+</div>   
+</div>
+</div>
+<script src="BudgetCalc.js"></script>
+</body>
+</html>

@@ -1,0 +1,117 @@
+
+
+.maincontainer{
+    display: flex;
+}
+h1{
+    text-align: center;
+    color: rgb(139, 48, 48); 
+}
+#desc{
+    text-align: center;
+    color: floralwhite;
+}
+h1 u{
+    background-color: aliceblue;
+    border: 5px darkslategrey inset;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+}
+button:hover{
+    background-color: rgb(181, 85, 85);
+    color: aquamarine;
+}
+#picke{
+    margin-left: 5px;
+}
+.container2{
+    display: flex;
+    flex-direction: column;   
+}
+
+.fieldcont{
+    
+    float: right;
+    padding-left: 200px;
+    margin-top: 2%;
+}
+.newinc{
+display: flex;
+flex-direction: column;
+align-content: center;
+justify-content: center;
+margin-top: 2%;
+border: 5px darkslategrey inset;
+padding: 5px;
+background-color: rgb(255, 255, 255);
+}
+.newfont{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 3%;
+}
+
+.tablecont{
+    display: inline;
+    align-content: center;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+#table1{
+    border: 2px solid;
+}
+td{
+    border: 2px solid black;
+}
+tr{
+    border: 2px solid black;
+}
+.pickAmount{
+    margin-top: 3%;
+}
+
+label{
+    font-size: large;
+    color: rgb(194, 98, 24);
+    margin-top: 3%;
+}
+input{
+    margin-top: 2%;
+}
+table{
+    background-color: white;
+}
+#expChartTable td{
+    height: auto;
+    width: auto;
+}
+.IE{
+ display: flex;
+ flex-direction: column;
+}
+#tablehead td{
+    width: 100px;
+}
+#table1 td{
+    width: 100px;
+}
+#ExpenseHead td{
+    width: 100px;
+}
+#incomehead td{
+    width: 100px;
+}
+#expChartTable td{
+    width: 100px;
+}
+.typecalc{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+.adjustmargin{
+    margin-top: -5%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+
+}
